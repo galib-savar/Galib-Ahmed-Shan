@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galib Ahmed Shan</title>
+  <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav id="navbar">
+      <h3 class="logo">Galib</h3>
+      <div class="nav_menu" id="navemenus">
+        <span onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></span>
+        <ul class="menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <input type="search" id="searchInput" placeholder="Search" style="padding:4px" />
+            <input type="submit" value="Go" onclick="searchSection()" />
+          </li>
+        </ul>
+      </div>
+      <span onclick="openMenu()"><i class="fa-solid fa-bars"></i></span>
+    </nav>
+
+    <section class="hero_area">
+      <img class="galib_image" src="https://uploads.onecompiler.io/43swewwkc/43syu4hcw/Adobe%20Express%20-%20file.png" alt="Galib">
+      <div class="description">
+        <h1 class="description_title">Hi! I am Galib Ahmed Shan</h1>
+        <p>I am a junior web developer.</p>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <marquee scrollamount="5" direction="right">
+      <p id="currentTime"></p>
+    </marquee>
+
+    <!-- About -->
+    <div class="about_me" id="about">
+      <h1>About Me</h1>
+      <div class="row">
+        <div class="about_me_col">
+          <img src="https://uploads.onecompiler.io/43swewwkc/43syu4hcw/Adobe%20Express%20-%20file.png">
+        </div>
+        <div class="about_me_col">
+          <h2>Hi! I am Galib Ahmed Shan</h2>
+          <p>I am a junior web developer. <br>
+            I am Bangladeshi. I am 12 years old. <br>
+            I have a YouTube channel called <b><u>Galib Tech</u></b>.<br>
+            I am in class six of high school.<br>
+            My birthday is April 17, 2013.<br>
+            My web developing journey begins in 2024.<br>
+            I have two years of experience in web development.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills" id="skills">
+      <h1>My Skills</h1>
+      <div class="row">
+        <div class="skills_col">
+          <h2>Web Development Skills</h2>
+          <p>My <abbr title="HyperText Markup Language">HTML</abbr> skills 90% <br>
+            My <abbr title="Cascading Style Sheets">CSS</abbr> skills 85% <br>
+            My <abbr title="JavaScript">JS</abbr> skills 30%</p>
+        </div>
+        <div class="skills_col">
+          <h2>Programming</h2>
+          <h3><i class="fa-brands fa-html5"></i> HTML</h3><span class="bar"><span class="html"></span></span>
+          <h3><i class="fa-brands fa-css3-alt"></i> CSS</h3><span class="bar"><span class="css"></span></span>
+          <h3><i class="fa-brands fa-js"></i> JavaScript</h3><span class="bar"><span class="js"></span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="services" id="services">
+      <h1>My Services</h1>
+      <p>I provide high-quality solutions tailored to your needs.</p>
+      <div class="row">
+        <div class="services_col">
+          <h2>Problem Solve</h2>
+          <p>I analyze issues and deliver efficient solutions.</p>
+        </div>
+        <div class="services_col">
+          <h2>Logo Making</h2>
+          <p>Creative logos that represent your brand identity.</p>
+        </div>
+        <div class="services_col">
+          <h2>Programming</h2>
+          <p>Clean and scalable code for web projects.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Location -->
+    <div class="location" id="contact">
+      <h1>My Location</h1>
+      <div class="row">
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d761.4026211888157!2d90.27945399295218!3d23.853033959528883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755eb1a734bc12d%3A0x5c1ea6a249853c3d!2sShahariar%20House!5e1!3m2!1sen!2sbd!4v1755857639085!5m2!1sen!2sbd" loading="lazy"></iframe></div>
+        <div>
+          <h2>Location</h2>
+          <p>Bangladesh,<br>Rajashon,<br>Savar, Dhaka.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="row">
+      <div>
+        <h1>Follow Me</h1>
+        <ul>
+          <li><a href="https://www.youtube.com/@GalibTech2013" target="_blank">Galib Tech</a></li>
+          <li><a href="https://codepen.io/" _blank"">Codepen</a></li>
+          <li><a href="https://scratch.mit.edu/">Scratch</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    new kursor({
+      type: 1
+    })
+  </script>
+</body>
+
+</html>
